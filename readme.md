@@ -1,8 +1,8 @@
-# Hệ thống quản lý thông tin sinh viên CURD
+# Project quản lý thông tin sinh viên Đơn giản
 
 ## Mô tả dự án
 
-Hệ thống quản lý thông tin sinh viên CURD là một ứng dụng web full-stack được phát triển nhằm cung cấp các chức năng cơ bản để quản lý dữ liệu sinh viên. Dự án sử dụng kiến trúc client-server với backend được xây dựng trên Spring Boot và frontend sử dụng Next.js, cho phép các người dùng thực hiện các thao tác Create, Read, Update và Delete (CRUD) trên thông tin sinh viên.
+Project quản lý thông tin sinh viên cơ bản dùng để quản lý thông tin sinh viên. Dự án sử dụng kiến trúc client-server với backend được xây dựng trên Spring Boot và frontend sử dụng Next.js, người dùng thực hiện các thao tác Create, Read, Update và Delete (CRUD) trên thông tin sinh viên.
 
 ## Công nghệ sử dụng
 
