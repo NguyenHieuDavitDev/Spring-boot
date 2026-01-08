@@ -10,6 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -30,27 +31,16 @@ public class StudentController {
         return service.getById(id);
     }
 
-//    @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-//    public Student create(
-//            @RequestParam String name,
-//            @RequestParam int age,
-//            @RequestParam String email,
-//            @RequestParam(required = false) MultipartFile avatar
-//    ) throws IOException {
-//
-//        Student student = new Student();
-//        student.setName(name);
-//        student.setAge(age);
-//        student.setEmail(email);
-//
-//        return service.create(student, avatar);
-//    }
-
-
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public Student create(@ModelAttribute StudentRequest request) throws IOException {
         return service.create(request);
     }
+
+    @PutMapping( value = "/{id}", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public Student update(@PathVariable Long id, @ModelAttribute StudentRequest request) throws IOException{
+            return service.update(id, request);
+    }
+
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable Long id) {
