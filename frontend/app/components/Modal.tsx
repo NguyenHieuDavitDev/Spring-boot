@@ -6,6 +6,7 @@ type Props = {
   children: React.ReactNode;
   onClose: () => void;
 };
+// đây là modal dùng để hiển thị form thêm/sửa sinh viên
 
 export default function Modal({ open, title, children, onClose }: Props) {
   if (!open) return null;
