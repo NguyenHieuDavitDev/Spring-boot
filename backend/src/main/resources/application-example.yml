@@ -1,9 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/auth_db_spring
-    username: root
-    password:
-
-  mail:
-    username: hieu102056@donga.edu.vn
-    password: jkbsvnvzbdzxmjfu

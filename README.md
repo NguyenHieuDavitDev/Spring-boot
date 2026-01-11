@@ -4,11 +4,11 @@ Một ứng dụng Spring Boot hoàn chỉnh với xác thực JWT, OTP, và qu�
 
 ## Tính năng
 
-- ✅ Xác thực JWT (JSON Web Tokens)
-- ✅ Xác thực OTP qua Email
-- ✅ Đăng ký và Đăng nhập người dùng
-- ✅ Quản lý Role và Quyền
-- ✅ Gửi Email cho OTP
+- Xác thực JWT (JSON Web Tokens)
+- Xác thực OTP qua Email
+- Đăng ký và Đăng nhập người dùng
+- Quản lý Role và Quyền
+- Gửi Email cho OTP
 
 ## Công nghệ sử dụng
 
@@ -120,6 +120,3 @@ spring:
 - Author: NguyenHieuDavitDev
 - Repository: https://github.com/NguyenHieuDavitDev/Spring-boot.git
 
-## License
-
-Dự án này được cấp phép dưới MIT License
