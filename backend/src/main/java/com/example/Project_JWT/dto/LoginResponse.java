@@ -8,4 +8,6 @@ import lombok.*;
 public class LoginResponse {
     private String message;
     private boolean otpRequired;
+    private String token;
+    private String role;
 }

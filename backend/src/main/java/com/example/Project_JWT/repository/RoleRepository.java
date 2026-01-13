@@ -1,7 +1,6 @@
 package com.example.Project_JWT.repository;
 
 import com.example.Project_JWT.entity.Role;
-import com.example.Project_JWT.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
